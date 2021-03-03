@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Learning</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <link rel="icon" href="../images/component/logo.png">
+
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="../css/remix/remixicon.css">
+
+</head>
+<body>
+    
+    <div class="bg-dashboard">
+        <div class="sidebar">
+            <div class="container">
+                
+                <div class="bg-profil d-flex align-items-center">
+                    <div class="container-fluid d-flex align-items-center justify-content-between">
+                        <div class="photo">
+                            <img src="../images/user/1.jpeg" alt="Profil Pengguna">
+                        </div><!-- photo -->
+                        <div>
+                            <h6>Tutut W.</h6>
+                            <p>074029221</p>
+                        </div>
+                        <a href="javascript:void(0)">
+                            <i class="ri-more-2-fill"></i>
+                        </a>
+                    </div><!-- container -->
+                </div><!-- bg-profil -->
+                <div class="d-flex flex-column justify-content-between" style="height: 82vh;">
+                    <div class="bg-menu">
+                        <ul>
+                            <li><a href="index.html"><i class="ri-home-5-line"></i>Beranda</a></li>
+                            <li><a href="kelas.html" class="active"><i class="ri-book-2-line"></i>Kelas</a></li>
+                            <li><a href="dosen.html"><i class="ri-user-2-line"></i>Dosen</a></li>
+                            <li><img class="mx-auto d-block img-fluid" src="../images/component/logo-unipra.png" width="100"></li>
+                        </ul>
+                    </div><!-- bg-menu -->
+                    <div class="copyright">
+                        <div class="container d-flex align-items-center">
+                            <i class="ri-copyright-line"></i><p>UNIPRA</p>
+                        </div>
+                    </div><!-- copyright -->
+                </div>
+
+            </div><!-- Container -->
+        </div><!-- Sidebar -->
+        <div class="mainside">
+            <div class="container">
+                <div class="nav">
+                    <div class="greeting">
+                        <p style="margin-right: 10px;"><b>Hai,</b> Tutut!</p>
+                    </div><!-- greeting -->
+                    <div class="menu d-flex">
+                        <a href="#"><i class="ri-search-line"></i></a>
+                        <a href="#"><i class="ri-notification-3-line"></i></a>
+                    </div><!-- menu -->
+                </div><!-- nav -->
+
+                <div class="bg-listClass">
+                    <p><b>Kelas Online</b> Hari Ini</p>
+                    <div class="cardMatkul">
+                        <a href="page/kelasOnline.html">
+                            <div class="card ptRed">
+                                <h6>Matematika</h6>
+                                <hr>
+                                <h5>P1</h5>
+                                <p><i class="ri-home-6-line"></i>B405</p>
+                                <p><i class="ri-time-line"></i>08.30 - 10.00</p>
+                            </div><!-- card -->
+                        </a>
+                        <a href="page/add/addKelas.html">
+                            <div class="createCard d-flex flex-column justify-content-center align-items-center">
+                                <i class="ri-add-circle-fill"></i>
+                                <p>Buat Kelas Online Baru</p>
+                            </div><!-- createCard -->
+                        </a>
+                    </div><!-- cardMatkul -->
+                </div><!-- listclass -->
+
+                <div class="section2">
+                    <div class="matkul col-12" style="padding: 0">
+                        <div class="d-flex justify-content-between">
+                            <p><b>Pengumuman</b> Terbaru</p>
+                            <div class="d-flex align-items-center">
+                                <a href="page/add/addPengumuman.html" style="font-size: 15px;" class="n-underline text-darkblue d-flex align-items-center">
+                                    <i class="ri-add-line"></i> Tambah Pengumuman Baru
+                                </a> | 
+                                <a href="page/pengumuman.html" style="font-size: 15px;" class="underline text-blue d-flex align-items-center">
+                                    Lihat Semua
+                                </a>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th class="text-left">Kelas</th>
+                                    <th class="text-left">Tanggal Upload / Jam</th>
+                                    <th class="text-left">Pengumuman</th>
+                                    <th>Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td class="text-left">P1</td>
+                                    <td class="text-left">14 Desember 2019 / 23.19</td>
+                                    <td class="text-left">Pertemuan selanjutnya saya izin tidak hadir, kerjakan tugasnya deng..</td>
+                                    <td>
+                                        <a href="javascript:void(0)" class="text-blue">Detail</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- matkul -->
+                </div><!-- bg-section 2-->
+
+                <div class="section2">
+                    <div class="daftar-kelas col-12">
+                        <div class="d-flex justify-content-between" style="padding: 0 10px;">
+                            <p><b>Daftar</b> Kelas</p>
+                            <a class="underline" href="page/semuaKelas.html" style="font-size: 15px;">Lihat Semua</a>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Kelas</th>
+                                    <th class="text-left">Mata Kuliah</th>
+                                    <th>SKS</th>
+                                    <th class="text-left">UTS</th>
+                                    <th class="text-left">Mahasiswa</th>
+                                    <th>Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#" class="n-underline text-black">P1</a></td>
+                                    <td class="text-left"><a href="#" class="n-underline text-black">Matematika</a></td>
+                                    <td>3</td>
+                                    <td class="text-muted text-left">Belum</td>
+                                    <td class="d-flex justify-content-start text-muted">
+                                        <div class="userm user1"><i class="ri-user-3-line bg-green"></i></div><!-- user-->
+                                        <div class="userm user2"><i class="ri-user-3-line bg-blue"></i></div><!-- user-->
+                                        <div class="userm user3"><i class="ri-user-3-line bg-orange"></i></div><!-- user-->
+                                        <div class="userm user4"><i class="ri-user-3-line bg-pink"></i></div><!-- user-->
+                                        <a href="#" class="n-underline text-muted"> +18</a>
+                                    </td>
+                                    <td><u><a href="page/tugas.html">Tugas</a></u> | <u><a href="page/materi.html" class="text-darkblue">Materi</a></u></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><a href="#" class="n-underline text-black">P2</a></td>
+                                    <td class="text-left"><a href="#" class="n-underline text-black">Sistem Pakar</a></td>
+                                    <td>3</td>
+                                    <td class="text-muted text-left">Belum</td>
+                                    <td class="d-flex justify-content-start text-muted">
+                                        <div class="userm user1"><i class="ri-user-3-line bg-green"></i></div><!-- user-->
+                                        <div class="userm user2"><i class="ri-user-3-line bg-blue"></i></div><!-- user-->
+                                        <div class="userm user3"><i class="ri-user-3-line bg-orange"></i></div><!-- user-->
+                                        <div class="userm user4"><i class="ri-user-3-line bg-pink"></i></div><!-- user-->
+                                        <a href="#" class="n-underline text-muted"> +20</a>
+                                    </td><td><u><a href="page/tugas.html">Tugas</a></u> | <u><a href="page/materi.html" class="text-darkblue">Materi</a></u></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><a href="#" class="n-underline text-black">Q1</a></td>
+                                    <td class="text-left"><a href="#" class="n-underline text-black">Matematika</a></td>
+                                    <td>3</td>
+                                    <td class="text-left">20 November 2019</td >
+                                    <td class="d-flex justify-content-start text-muted">
+                                        <div class="userm user1"><i class="ri-user-3-line bg-green"></i></div><!-- user-->
+                                        <div class="userm user2"><i class="ri-user-3-line bg-blue"></i></div><!-- user-->
+                                        <div class="userm user3"><i class="ri-user-3-line bg-orange"></i></div><!-- user-->
+                                        <div class="userm user4"><i class="ri-user-3-line bg-pink"></i></div><!-- user-->
+                                        <a href="#" class="n-underline text-blue"> +32</a>
+                                    </td><td><u><a href="page/tugas.html">Tugas</a></u> | <u><a href="page/materi.html" class="text-darkblue">Materi</a></u></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- matkul -->
+                </div><!-- bg-section 2-->
+            </div><!-- container -->
+        </div><!-- Mainside -->
+    </div><!-- Dashboard -->
+
+</body>
+</html>

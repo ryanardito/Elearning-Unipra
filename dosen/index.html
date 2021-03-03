@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../images/component/logo.png">
+    <title>E-Learning</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/flickity.min.css">
+
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="../css/remix/remixicon.css">
+
+</head>
+<body>
+    
+    <div class="bg-dashboard">
+        <div class="sidebar">
+            <div class="container">
+                
+                <div class="bg-profil d-flex align-items-center">
+                    <div class="container-fluid d-flex align-items-center">
+                        <div class="photo">
+                            <img src="../images/user/1.jpeg" alt="Profil Pengguna">
+                        </div><!-- photo -->
+                        <div>
+                            <h6>Tutut W.</h6>
+                            <p>205011</p>
+                        </div>
+                        <a href="javascript:void(0)">
+                            <i class="ri-more-2-fill"></i>
+                        </a>
+                    </div><!-- container -->
+                </div><!-- bg-profil -->
+                <div class="d-flex flex-column justify-content-between" style="height: 82vh;">
+                    <div class="bg-menu">
+                        <ul>
+                            <li><a href="index.html" class="active"><i class="ri-home-5-line"></i>Beranda</a></li>
+                            <li><a href="kelas.html"><i class="ri-book-2-line"></i>Kelas</a></li>
+                            <li><a href="dosen.html"><i class="ri-user-2-line"></i>Dosen</a></li>
+                            <li><img class="mx-auto d-block img-fluid" src="../images/component/logo-unipra.png" width="100"></li>
+                        </ul>
+                    </div><!-- bg-menu -->
+                    <div class="copyright">
+                        <div class="container d-flex align-items-center">
+                            <i class="ri-copyright-line"></i><p>UNIPRA</p>
+                        </div>
+                    </div><!-- copyright -->
+                </div>
+
+            </div><!-- Container -->
+        </div><!-- Sidebar -->
+        <div class="mainside">
+            <div class="container">
+                <div class="nav">
+                    <div class="greeting">
+                        <p><b>Hai,</b> Tutut!</p>
+                    </div><!-- greeting -->
+                    <div class="menu">
+                        <a href="#"><i class="ri-search-line"></i></a>
+                        <a href="#"><i class="ri-notification-3-line"></i></a>
+                    </div><!-- menu -->
+                </div><!-- nav -->
+
+                <div class="bg-listClass">
+                    <p><b>Kelas</b> Hari Ini</p>
+                    <div class="card-matkul-position">
+                        <div class="cardMatkul card-matkul-overflow">
+                            <a href="page/kelasAktif.html">
+                                <div class="card ptRed">
+                                    <h6>Matematika</h6>
+                                    <hr>
+                                    <p><i class="ri-contacts-book-line"></i>P1</p>
+                                    <p><i class="ri-home-6-line"></i>B405</p>
+                                    <p><i class="ri-time-line"></i>08.30 - 10.00</p>
+                                </div><!-- card -->
+                            </a>
+                            <a href="">
+                                <div class="card ptBlue">
+                                    <h6>Matematika</h6>
+                                    <hr>
+                                    <p><i class="ri-contacts-book-line"></i>P2</p>
+                                    <p><i class="ri-home-6-line"></i>M303</p>
+                                    <p><i class="ri-time-line"></i>11.30 - 13.00</p>
+                                </div><!-- card -->
+                            </a>
+                            <a href="">
+                                <div class="card ptGreen">
+                                    <h6>Statistika Bisnis</h6>
+                                    <hr>
+                                    <p><i class="ri-contacts-book-line"></i>Q1</p>
+                                    <p><i class="ri-home-6-line"></i>Kelas Online</p>
+                                    <p><i class="ri-time-line"></i>13.30 - 16.00</p>
+                                </div><!-- card --> 
+                            </a>
+                        </div><!-- cardMatkul -->
+                    </div>
+                </div><!-- listclass -->
+                
+                <!--<div class="carousel" data-flickity='{ "freeScroll": true, "prevNextButtons": false,
+                "pageDots": false }' >
+                    <a href="page/kelasAktif.html">
+                        <div class="card ptRed">
+                            <h6>Matematika</h6>
+                            <hr>
+                            <p><i class="ri-contacts-book-line"></i>P1</p>
+                            <p><i class="ri-home-6-line"></i>B405</p>
+                            <p><i class="ri-time-line"></i>08.30 - 10.00</p>
+                        </div> card 
+                    </a>
+                    <a href="page/kelasAktif.html">
+                        <div class="card ptBlue">
+                            <h6>Matematika</h6>
+                            <hr>
+                            <p><i class="ri-contacts-book-line"></i>P1</p>
+                            <p><i class="ri-home-6-line"></i>B405</p>
+                            <p><i class="ri-time-line"></i>08.30 - 10.00</p>
+                        </div>
+                    </a>
+                    <a href="page/kelasAktif.html">
+                        <div class="card ptGreenw">
+                            <h6>Matematika</h6>
+                            <hr>
+                            <p><i class="ri-contacts-book-line"></i>P1</p>
+                            <p><i class="ri-home-6-line"></i>B405</p>
+                            <p><i class="ri-time-line"></i>08.30 - 10.00</p>
+                        </div>
+                    </a>
+                </div>carousel-->
+
+                <div class="section2 mb-4 mb-md-0">
+                    <div class="matkul col-12" style="padding: 0">
+                        <div class="d-flex justify-content-between">
+                            <!-- <div class="row"> -->
+                                <!-- <div class="col-md-6"> -->
+                                    <p><b>Pengumuman</b> Terbaru</p>
+                                <!-- </div> -->
+                                <!-- <div class="col-md-6"> -->
+                                    <p>
+                                        <a href="#" style="font-size: 15px; text-align: end;" class="n-underline text-darkblue d-flex align-items-center">
+                                            <!--<i class="ri-add-line"></i>--> Tambah Pengumuman Baru
+                                        </a>
+                                    </p>
+                                <!-- </div> -->
+                            <!-- </div> -->
+                        </div>
+                        <div class="table-responsive-lg">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th class="text-left">Kelas</th>
+                                        <th class="text-left text-nowrap">Tanggal Upload / Jam</th>
+                                        <th class="text-left text-nowrap">Pengumuman</th>
+                                        <th>Opsi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td class="text-left">P1</td>
+                                        <td class="text-left text-nowrap">14 Desember 2019 / 23.19</td>
+                                        <td class="text-left text-nowrap">Pertemuan selanjutnya saya izin tidak hadir, kerjakan tugasnya deng..</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="text-blue">Detail</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div><!-- matkul -->
+                </div><!-- bg-section 2-->
+
+                <!-- <div class="section2"> -->
+                    <div class="row">
+                        <div class="matkul col-md-6 mb-4 mb-md-0">
+                            <div class="d-flex justify-content-between">
+                                <p><b>Daftar</b> Mata Kuliah</p>
+                                <a href="#" style="font-size: 15px;">Lihat Semua</a>
+                            </div>
+                            <div class="table-responsive-lg">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-left">Mata Kuliah</th>
+                                            <th>SKS</th>
+                                            <th class="text-left">UTS</th>
+                                            <th>UAS</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-left">Matematika</td>
+                                            <td>3</td>
+                                            <td class="text-left text-nowrap">13 November 2019</td>
+                                            <td class="text-muted">-</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left">Biologi</td>
+                                            <td>3</td>
+                                            <td class="text-left text-nowrap">14 November 2019</td>
+                                            <td class="text-muted">-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><!-- matkul -->
+                        <div class="kelas col-md-6">
+                            <div class="d-flex justify-content-between">
+                                <p><b>Daftar Kelas</b> Minggu Ini</p>
+                                <a href="#" style="font-size: 15px;">Lihat Semua</a>
+                            </div>
+                            <div class="table-responsive-lg">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Kelas</th>
+                                            <th class="text-left">Mata Kuliah</th>
+                                            <th class="text-left">Ruangan</th>
+                                            <th class="text-left">Tanggal</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>P1</td>
+                                            <td class="text-left text-nowrap">Matematika</td>
+                                            <td class="text-left">B404</td>
+                                            <td class="text-left text-nowrap">11 November 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Q1</td>
+                                            <td class="text-left text-nowrap">Statistika Bisnis</td>
+                                            <td class="text-left">M401</td>
+                                            <td class="text-left text-nowrap">11 November 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Q2</td>
+                                            <td class="text-left text-nowrap">Statistika Bisnis</td>
+                                            <td class="text-left text-nowrap">Kelas Online</td>
+                                            <td class="text-left text-nowrap">12 November 2019</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><!-- kelas -->
+                    </div>
+                <!--</div>--><!-- bg-section 2-->
+            </div><!-- container -->
+        </div><!-- Mainside -->
+    </div><!-- Dashboard -->
+
+    <script src="../js/flickity.pkgd.js"></script>
+
+</body>
+</html>
